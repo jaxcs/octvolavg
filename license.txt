@@ -1,0 +1,77 @@
+The OCT Volume Averager plugin registers and averages optical coherence
+tomography (OCT) volume datasets that are acquired by repeated scanning
+from a single eye to improve the detection of fine detail. The plugin relies
+on the TurboReg and StackReg plugins to perform image registration. OCT
+Volume Averager is most useful for efficient processing of input data that
+are organized to include repeated scans from one or more eyes in a single
+folder. However, it also accepts data opened in ImageJ/Fiji. Currently the
+plugin has been tested on OCT volumes acquired with a Bioptigen Envisu R2200
+UHR-SDOIS instrument and includes the Bioptigen OCT Reader plugin for ImageJ
+to convert Bioptigen *.oct files to *.tif format. OCT Volume Averager may be
+applied in principle to repeated OCT volume scans obtained in *.tif format
+from other instruments.
+
+The TurboReg and StackReg plugins were developed by P. Thévenaz and
+coworkers.  See the following websites for more information:
+http://bigwww.epfl.ch/thevenaz/turboreg/ 
+http://bigwww.epfl.ch/thevenaz/stackreg/
+
+The OCT_Reader plugin for ImageJ was developed by Bioptigen:
+Copyright 2010 Bioptigen, Inc.
+Author: Bradley Bower
+
+All other code was developed at The Jackson Laboratory:
+Copyright 2013-2014 The Jackson Laboratory.
+Authors: Keith Sheppard, Mei Xiao and Mark Krebs
+
+OCT Volume Averager is citeware and may be used under the terms of the
+Attribution-NoDerivatives International License as published by Creative
+Commons, either version 4.0 of the License, or (at your option) any later
+version, with the following exceptions. Use in source and binary forms are
+permitted provided that the following conditions are met:
+
+* Any publications (e.g. academic reports, papers, other disclosure of
+  results) containing or based on data obtained with the use of this
+  software will acknowledge its use by citing the following:
+
+        P. Thévenaz, U.E. Ruttimann, M. Unser, A Pyramid Approach to Subpixel
+        Registration Based on Intensity. IEEE Transactions on Image
+        Processing, vol. 7, no. 1, pp. 27-41, January 1998. (This paper is
+        available on-line at
+        http://bigwww.epfl.ch/publications/thevenaz9801.html; other relevant
+        on-line publications are available at
+        http://bigwww.epfl.ch/publications/)
+
+        M.P. Krebs, M. Xiao, K. Sheppard, W. Hicks, P.M. Nishina, Bright-Field
+        Imaging and Optical Coherence Tomography of the Mouse Posterior Eye.
+        Methods in Molecular Biology. 2016;1438:
+        DOI: 10.1007/978-1-4939-3661-8_20
+
+* Use of source code or binary form is for research purposes only.
+
+* No redistributions of the source code or binary form are permitted without
+  written permission of the copyright holders; however, should redistribution
+  be permitted upon receipt of written permission, all source code and binary
+  form must reproduce the above copyright notice, this list of conditions and
+  the following disclaimers in the documentation and/or other materials
+  provided with the distribution.
+
+* Neither the name of OCT Volume Averager nor the names of its contributors may
+  be used to endorse or promote products derived from this software without
+  specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE OCT VOLUME AVERAGER DEVELOPMENT TEAM BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+You should have received a copy of the Creative Commons
+Attribution-NoDerivatives 4.0 International License along with this program.
+If not, see <https://creativecommons.org/licenses/>.

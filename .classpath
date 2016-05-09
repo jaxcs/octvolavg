@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**|resources/|resources/" kind="src" path=""/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/ij.jar" sourcepath="/Users/kss/projects/third-party/imagej/source"/>
+	<classpathentry kind="lib" path="lib/StackReg_.jar"/>
+	<classpathentry kind="lib" path="lib/TurboReg_.jar"/>
+	<classpathentry kind="output" path="eclipse-output"/>
+</classpath>

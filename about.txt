@@ -1,0 +1,25 @@
+The OCT Volume Averager plugin registers and averages optical coherence
+tomography (OCT) volume datasets that are acquired by repeated scanning
+from a single eye to improve the detection of fine detail. The plugin relies
+on the TurboReg and StackReg plugins to perform image registration. OCT
+Volume Averager is most useful for efficient processing of input data that
+are organized to include repeated scans from one or more eyes in a single
+folder. However, it also accepts data opened in ImageJ/Fiji. Currently the
+plugin has been tested on OCT volumes acquired with a Bioptigen Envisu R2200
+UHR-SDOIS instrument and includes the Bioptigen OCT Reader plugin for ImageJ
+to convert Bioptigen *.oct files to *.tif format. OCT Volume Averager may be
+applied in principle to repeated OCT volume scans obtained in *.tif format
+from other instruments.
+
+The TurboReg and StackReg plugins were developed by P. Thévenaz and
+coworkers.  See the following websites for more information:
+http://bigwww.epfl.ch/thevenaz/turboreg/
+http://bigwww.epfl.ch/thevenaz/stackreg/
+
+The OCT_Reader plugin for ImageJ was developed by Bioptigen:
+Copyright 2010 Bioptigen, Inc.
+Author: Bradley Bower
+
+All other code was developed at The Jackson Laboratory:
+Copyright 2013-2014 The Jackson Laboratory.
+Authors: Keith Sheppard, Mei Xiao and Mark Krebs

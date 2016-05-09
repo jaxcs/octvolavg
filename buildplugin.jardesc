@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="octvolavg/OCT_Vol_Avg_Plugin.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/octvolavg/buildplugin.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="/octvolavg/MANIFEST.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=octvolavg/resources"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{IJPluginOptions.java"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;com.bioptigen"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{DocumentLogger.java"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{LazyOCTReader.java"/>
+        <file path="/octvolavg/src/org/jax/octvolavg/IJPluginOptions.form"/>
+        <file path="/octvolavg/src/org/jax/octvolavg/MainWindow.form"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{LicenseDialog.java"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{SafeAWTInvoker.java"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{TurboReg.java"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{FileUtilities.java"/>
+        <file path="/octvolavg/src/plugins.config"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{Configuration.java"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{Utilities.java"/>
+        <file path="/octvolavg/src/org/jax/octvolavg/cc-4.0.txt"/>
+        <file path="/octvolavg/src/org/jax/octvolavg/LicenseDialog.form"/>
+        <file path="/octvolavg/src/org/jax/octvolavg/ConversionFrame.form"/>
+        <file path="/octvolavg/src/org/jax/octvolavg/octvolavg.properties"/>
+        <file path="/octvolavg/src/org/jax/octvolavg/license.txt"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{StackReg.java"/>
+        <file path="/octvolavg/src/org/jax/octvolavg/about.txt"/>
+        <folder path="/octvolavg/lib"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{IJPlugin.java"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{LazyTIFFReader.java"/>
+        <javaElement handleIdentifier="=octvolavg/src&lt;org.jax.octvolavg{MainDriver_ToEnFace.java"/>
+    </selectedElements>
+</jardesc>

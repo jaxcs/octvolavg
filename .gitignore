@@ -1,0 +1,11 @@
+*.oct
+*.tif
+/nbproject/private/
+/eclipse-output/
+/oct-examples/
+/Fiji.app/
+temp/
+eclipse-source-for-jars/
+bckjar/
+OCT_Vol_Avg_Plugin.jar
+OCT_Vol_Avg.jar

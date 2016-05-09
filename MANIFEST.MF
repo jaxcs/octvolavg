@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: org.jax.optcoherence.ConversionFrame
+Class-Path: lib/ij.jar
